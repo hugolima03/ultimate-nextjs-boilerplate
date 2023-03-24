@@ -15,6 +15,7 @@ export const Container = styled.div`
 
 export const Title = styled.p`
   ${({ theme }) => css`
+    text-align: center;
     font-size: 3.2rem;
     text-transform: uppercase;
     font-weight: 700;
@@ -25,6 +26,7 @@ export const Title = styled.p`
 `
 
 export const Text = styled.p`
+  text-align: center;
   font-size: 1.6rem;
   font-weight: 500;
   color: white;
