@@ -1,5 +1,12 @@
+import { ThemeProvider } from 'styled-components'
+
+import GlobalStyles from 'styles/global'
+
+import theme from 'styles/theme'
+
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
+  layout: 'fullscreen',
   controls: {
     matchers: {
       color: /(background|color)$/i,
@@ -7,3 +14,12 @@ export const parameters = {
     },
   },
 }
+
+export const decorators = [
+  (Story) => (
+    <ThemeProvider theme={theme}>
+      <GlobalStyles />
+      <Story />
+    </ThemeProvider>
+  )
+]
