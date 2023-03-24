@@ -40,6 +40,7 @@ const theme = {
     white: '#ffffff'
   },
   spacings: {
+    xxsmall: '0.8rem',
     xsmall: '1.6rem',
     small: '2.4rem',
     medium: '3.2rem',
