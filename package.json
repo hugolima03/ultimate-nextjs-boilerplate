@@ -12,11 +12,6 @@
     "build-storybook": "storybook build",
     "prepare": "husky install"
   },
-  "eslintConfig": {
-    "extends": [
-      "plugin:storybook/recommended"
-    ]
-  },
   "dependencies": {
     "@types/node": "20.2.3",
     "@types/react": "18.2.6",
